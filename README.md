@@ -18,6 +18,14 @@
 
 </div>
 
+<div align="center">
+
+<a href="https://reinh2.github.io/assets/motion/invoice-en.mp4"><img src="https://reinh2.github.io/assets/motion/invoice-en-poster.webp" alt="InvoiceFlow video overview: reading an invoice and reviewing the extracted fields" width="820"></a>
+
+▶ **[Watch the 28-second video overview](https://reinh2.github.io/assets/motion/invoice-en.mp4)** · **[Смотреть видеообзор на русском](https://reinh2.github.io/assets/motion/invoice-ru.mp4)** · with sound · со звуком
+
+</div>
+
 ---
 
 <div align="center">
