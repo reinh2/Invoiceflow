@@ -153,7 +153,9 @@ describe('ScrubVideo', () => {
     const { container } = render(<ScrubVideo src="/media/clip.mp4" decorative />);
     const still = container.querySelector('video');
     if (still === null) throw new Error('a supplied clip without a poster needs a static video');
-    act(() => still.dispatchEvent(new Event('loadedmetadata')));
+    act(() => {
+      still.dispatchEvent(new Event('loadedmetadata'));
+    });
     expect(still).toHaveAttribute('src', '/media/clip.mp4');
     expect(still).not.toHaveAttribute('autoplay');
     expect(still.currentTime).toBe(5);
